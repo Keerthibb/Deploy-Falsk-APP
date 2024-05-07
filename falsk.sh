@@ -7,4 +7,4 @@ cd /home/ubuntu/
 sudo pip3 install -r requirements.txt
 cd /home/ubuntu/
 sudo python3 app.py &
-sleep 30
+sleep 60
