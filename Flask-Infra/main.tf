@@ -90,33 +90,5 @@ resource "aws_instance" "server" {
   tags = {
     Name = "Flask:Ubuntu Linux EC2"
   }
-
-  connection {
-    type        = "ssh"
-    user        = "ubuntu"
-    private_key = file("/home/keerthi/.ssh/id_rsa")
-    host        = self.public_ip
-  }
-
-  provisioner "file" {
-    source      = "app.py"
-    destination = "/home/ubuntu/app.py"
-  }
-
-  provisioner "file" {
-    source      = "flask.sh"
-    destination = "/home/ubuntu/flask.sh"
-  }
-
-  provisioner "file" {
-    source      = "requirements.txt"
-    destination = "/home/ubuntu/requirements.txt"
-  }
-
-  provisioner "remote-exec" {
-    inline = [
-      "chmod +x /home/ubuntu/flask.sh,",
-      "bash /home/ubuntu/flask.sh",
-    ]
-  }
+  user_data = file("flask.sh")
 }
