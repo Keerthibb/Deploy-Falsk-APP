@@ -1,6 +1,6 @@
 # Deploy-Falsk-APP
 
-Provisioned infra using Terraform through Jenkins pipeline for [Flask application](https://github.com/Keerthibb/Python-Flaskapp)
+Provisioned infra using Terraform through [Jenkins pipeline](https://github.com/Keerthibb/Deploy-Falsk-APP/tree/main/Flask-Infra)  for [Flask application](https://github.com/Keerthibb/Python-Flaskapp)
 
 Below are the AWS resources that have been provisioned for the Flask application
 
