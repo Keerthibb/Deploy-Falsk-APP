@@ -15,7 +15,7 @@ pipeline {
                 deleteDir()
 
                 // Clone the Git repository
-                git branch: 'master',
+                git branch: 'main',
                 url: 'https://github.com/Keerthibb/Deploy-Falsk-APP.git'
                 sh "ls -lart"
             }
