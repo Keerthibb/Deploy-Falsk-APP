@@ -1,0 +1,7 @@
+region = "us-east-1"
+cidr = "10.0.0.0/16"
+availability_zone = "us-east-1a"
+public_cidr = "10.0.0.0/24"
+ami = "ami-080e1f13689e07408"
+instance_type = "t2.micro"
+public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtXLlbKFY5eJ5sFm8kCoWWiWYU+C9TJeRgmJVb8BVEEjs+85h0ts7XTXMboiD3IGMMaubnf234vsWfyw+3Gkn7reYae/U2e1F/eVEOdw09IbL4x1Wt9lr1Pi0BALLk3KCuElKK99ZZ28PDM59TJsEiI+5CkBp4cD9itoolZIZFEtMXweWL9G4q9z1Rczn+dF53TJIu4TFD1ksKQGEUzsv5+/Pmjt9NsGWqmC+yBiCxElS5eb2YXqgGICAaxpbw0UcSBVndDhD66FMpqkzyX6tS0gcyqv/FUmdIYVG+76Daveegro+cUsVPiiTJ5oz5R6qD3kFl00EqF2Z28sZvzKO8IJgi+new2XacmUf0vRCiMx1u5BxA/sjwtM5qGMjg5M9M37/eUPxUdAvD5oK1atqoVC0aZjnlE0vwPqP1Ry/JOx+xaY3BfsJQiQHCsvMDpHU+ok/IMyTT8GkPnjZBO1pe+vFk4xfjhy50jJJYAJL4Yui7VNO5vq0n8pOndxIhck8= keerthi@KBB-LT"
