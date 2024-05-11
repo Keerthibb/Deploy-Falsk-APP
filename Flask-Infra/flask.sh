@@ -7,4 +7,4 @@ git clone https://github.com/Keerthibb/Python-Flaskapp.git
 cd /home/ubuntu/Python-Flaskapp/
 sudo pip3 install -r requirements.txt
 sudo python3 app.py &
-sleep 30
+sleep 5
